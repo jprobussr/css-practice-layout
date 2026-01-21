@@ -78,6 +78,10 @@ img {
     color: var(--orange);
 }
 
+.section-dark p:last-of-type {
+    margin-bottom: 30px;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -110,5 +114,18 @@ img {
     outline: 3px solid var(--orange);
     outline-offset: 3px;
 }
+
+.site-footer {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 25px 0;
+    font-size: 16px;
+}
+
+.site-footer p {
+    margin: 0;
+    text-align: center;
+}
+
 
 
